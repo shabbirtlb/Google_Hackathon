@@ -1,0 +1,10 @@
+/* Dropdown panels with scroll */
+.dropdown-panel {
+  max-height: 18rem;
+  overflow: auto;
+}
+
+/* Fallback company logo */
+.company-fallback {
+  @apply w-12 h-12 flex items-center justify-center rounded-full bg-blue-600 text-white font-bold text-lg;
+}
