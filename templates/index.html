@@ -887,13 +887,6 @@
                        dataForRegions={dataset} onApply={applyFilters} />
             )}
 
-            <div className="bg-amber-50 border border-amber-200 text-amber-900 rounded-2xl p-4 mb-6">
-              <div className="flex flex-wrap items-center gap-3">
-                <span className="font-medium">Don’t see your company?</span>
-                <span className="text-sm">You can still start an analysis by name.</span>
-                <a href="#" onClick={(e) => { e.preventDefault(); /* Hook this to your 'Analyze by Name' flow */ }} className="ml-auto px-3 py-2 rounded-xl bg-amber-600 text-white hover:bg-amber-700 text-sm">Analyze by Name</a>
-              </div>
-            </div>
 
             {loading && <div className="text-center text-gray-500 py-10">Loading companies…</div>}
             {error && <div className="text-center text-red-600 py-10">{error}</div>}
