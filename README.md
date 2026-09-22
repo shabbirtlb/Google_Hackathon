@@ -4,7 +4,6 @@ An agentic AI tool that searches Y Combinator's company directory, then runs a m
 
 Built during the **Google GenAI Hackathon**.
 
-> This is the refactored, modular build of the project — code split into a `tools/` package with separated `static/`/`templates/` frontend. See [Google_GenAI](https://github.com/shabbirtlb/Google_GenAI) for the original single-file hackathon build.
 
 ## What it does
 
